@@ -1,0 +1,123 @@
+.kse-dialog {
+	border: 1px solid #CE9D3D;
+	background-color: #FFE190;
+	padding: 3px;
+	min-width: 300px;
+	position: relative;
+	font: 12px Arial;
+}
+
+.kse-dialog-title {
+	font-weight: bold;
+	text-indent: 10px;
+	background-color: #FEF7D9;
+	line-height: 28px;
+	height: 28px;
+}
+
+.kse-dialog-close {
+	background: url('images/close.png') no-repeat;
+	padding-top: 17px;
+	width: 17px;
+	height: 0;
+	cursor: pointer;
+	position: absolute;
+	top: 9px;
+	right: 10px;
+	overflow: hidden;
+}
+
+.kse-dialog-close:hover,
+.kse-dialog-close.kse-hover {
+	background: url('images/close-hover.png') no-repeat;
+}
+
+.kse-dialog-main {
+	background-color: #FFF;
+}
+
+.kse-dialog-tips {
+	padding-top: 8px;
+}
+
+.kse-dialog-tips .kse-tip {
+	min-width: 160px;
+	max-width: 420px;
+	width: 260px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.kse-dialog-contents {
+	line-height: 25px;
+	padding: 10px 20px;
+}
+
+.kse-dialog-header-content,
+.kse-dialog-tab-content {
+	padding-left: 15px;
+}
+
+.kse-dialog-tab-content {
+	padding-top: 15px;
+	vertical-align: top;
+}
+
+.kse-dialog-contents p {
+	padding: 5px 0;
+	line-height: 1.5;
+}
+
+.kse-dialog-buttons {
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.kse-dialog-buttons button {
+	margin: 0 3px;
+	padding: 3px 13px;
+	*padding: 3px 7px 0;
+}
+
+.kse-dialog-label {
+	font-weight: bold;
+}
+
+.kse-dialog-input {
+	width: 320px;
+	height: 22px;
+	line-height: 22px;
+	padding: 2px 3px;
+	vertical-align: top;
+}
+
+.kse-dialog-input:focus {
+	border: 2px solid #E3E6EF;
+}
+
+.kse-dialog-tab-bar {
+	padding-top: 5px;
+	vertical-align: top;
+}
+
+.kse-dialog-text {
+	color: #999;
+}
+
+.kse-dialog iframe.kse-pasteframe {
+	border: 1px solid #999;
+	background-color: #FFF;
+	width: 332px;
+	height: 130px;
+}
+
+.kse-dialog .kse-pastetext textarea {
+	resize: none;
+	width: 326px;
+	height: 130px;
+	padding: 5px;
+}
+
+.kse-dialog-tab-content-inner td {
+	padding-bottom: 10px;
+}

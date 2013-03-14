@@ -1,0 +1,19 @@
+.kse-styles-panel,
+.kse-format-panel,
+.kse-font-panel,
+.kse-fontsize-panel {
+	border: 1px solid #E2B88A;
+	width: 150px;
+	height: 100%;
+	max-height: 328px;
+}
+
+.kse-fontsize-panel {
+	width: 120px;
+}
+
+.kse-color-panel {
+	border: 1px solid #d9d8d8;
+	height: 220px;
+	width: 176px;
+}

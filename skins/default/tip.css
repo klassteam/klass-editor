@@ -1,0 +1,32 @@
+.kse-tip {
+	display: none;
+	line-height: 20px;
+}
+
+.kse-tip.kse-success,
+.kse-tip.kse-error,
+.kse-tip.kse-warning {
+	padding: 1px 10px;
+	color: #40403E;
+}
+
+.kse-tip.kse-error {
+	background-color: #FFF6F7;
+	border: 1px solid #FEAEAD;
+}
+
+.kse-tip.kse-success {
+	background-color: #F1FFE6;
+	border: 1px solid #91D95C;
+	color: #404042;
+}
+
+.kse-tip.kse-warning {
+	background-color: #FFFFE5;
+	border: 1px solid #FDCC7F;
+}
+
+.kse-tip-input-error {
+	background-color: #FFFBE5;
+	border: 1px solid #FEAEAD;
+}

@@ -1,0 +1,20 @@
+.kse-elements-path {
+	float: left;
+	height: 20px;
+	padding: 3px;
+	font: 12px Arial, Helvetica, Tahoma, Verdana, Sans-Serif;
+}
+
+.kse-elements-path a {
+	float: left;
+	color: #999;
+	padding: 2px 4px;
+	margin-right: 2px;
+}
+
+.kse-elements-path a:hover {
+	padding: 1px 3px;
+	color: #000;
+	border: 1px solid #cdd9ed;
+	background-color: #e9f0fd;
+}

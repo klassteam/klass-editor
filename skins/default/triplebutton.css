@@ -1,0 +1,38 @@
+.kse-button {
+	padding: 2px;
+	margin: 0 2px;
+}
+
+.kse-button:hover,
+.kse-button.kse-hover,
+.kse-button.kse-active,
+.kse-button.kse-active:hover,
+.kse-button.kse-active.kse-hover {
+	padding: 1px;
+	border: 1px solid #FCB05C;
+	background: url('images/bg.png') repeat-x 0 0;
+}
+
+.kse-button.kse-active {
+	background-position: 0 -28px;
+}
+
+.kse-button.kse-active:hover,
+.kse-button.kse-active.kse-hover {
+	background-position: 0 -56px;
+}
+
+.kse-button.kse-disabled:hover,
+.kse-button.kse-disabled.kse-hover {
+	background: none;
+	border: none;
+	padding: 2px;
+}
+
+.kse-button .kse-label {
+	display: none;
+}
+
+.kse-button, .kse-select {
+	cursor: pointer;
+}

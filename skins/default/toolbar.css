@@ -1,0 +1,6 @@
+.kse-separator {
+	width: 18px;
+	height: 20px;
+	margin-top: 1px;
+	background: url('images/separator.png') no-repeat top center;
+}

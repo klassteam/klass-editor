@@ -1,0 +1,11 @@
+.kse-panel {
+	position: absolute;
+	overflow: hidden;
+	background-color: #FFF;
+	z-index: 9999;
+}
+
+.kse-panel-shadow {
+	border-right: 1px solid #8c8c8c;
+	border-bottom: 1px solid #8c8c8c;
+}

@@ -1,0 +1,60 @@
+.kse-skin strong {
+	font-weight: bold;
+}
+
+.kse-skin a {
+	color: #930;
+}
+
+.kse-skin a:hover {
+	color: #DC2304;
+}
+
+.kse-skin .kse-explain {
+	color: #999;
+}
+
+.kse-skin .kse-stress {
+	color: #F36D6C;
+}
+
+.kse-skin .kse-text-left {
+	text-align: left;
+}
+
+.kse-skin .kse-text-right {
+	text-align: right;
+}
+
+.kse-skin .kse-spinner {
+	background: url('images/spinner.gif') no-repeat center center;
+	min-height: 24px;
+}
+
+.kse-skin .kse-progress {
+	background: url('images/progress.gif') no-repeat center center;
+	min-height: 24px;
+	color: #999;
+}
+
+.kse-skin input:focus,
+.kse-skin input.kse-focus {
+	border: 2px solid #E3E6EF;
+}
+
+.kse-skin .kse-move {
+	cursor: move;
+}
+
+.kse-skin .kse-move-shadow {
+	visibility: hidden;
+	position: absolute;
+	margin: 0;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+.kse-skin .kse-move-place {
+	background-color: #CCC;
+	color: #CCC;
+}

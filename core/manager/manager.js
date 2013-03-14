@@ -1,0 +1,1 @@
+Klass.Editor.manager = {};

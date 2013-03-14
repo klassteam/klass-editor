@@ -1,0 +1,19 @@
+.kse-tab-bar {
+	padding: 5px 0;
+}
+
+.kse-tab-bar .kse-tab {
+	padding: 5px 16px;
+	cursor: default;
+}
+
+.kse-tab-bar .kse-tab.kse-active {
+	background-color: #EAEAEA;
+}
+
+.kse-tab-bar .kse-tab:hover,
+.kse-tab-bar .kse-tab.kse-hover,
+.kse-tab-bar .kse-tab.kse-active:hover,
+.kse-tab-bar .kse-tab.kse-active.kse-hover {
+	cursor: pointer;
+}

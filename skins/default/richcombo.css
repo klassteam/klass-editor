@@ -1,0 +1,66 @@
+/**
+ * rich combo box style
+ */
+
+.kse-richcombo {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.kse-richcombo iframe {
+	width: 100%;
+	height: 100%;
+}
+
+body.kse-panel-frame {
+	background-color: #FFF;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+.kse-panel-block {
+	background-color: #FFFDF4;
+	color: #333;
+}
+
+.kse-panel-block ul {
+	list-style-type: none;
+	padding: 3px;
+}
+
+.kse-panel-block span {
+	vertical-align: middle;
+}
+
+.kse-list-item {
+	text-indent: 6px;
+	margin-bottom: 3px;
+	padding: 4px 0;
+	vertical-align: middle;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+.kse-list-item:hover,
+.kse-list-item.kse-hover,
+.kse-list-item.kse-selected {
+	background-color: #FFEDB6;
+}
+
+.kse-list-item.kse-selected:hover,
+.kse-list-item.kse-selected.kse-hover {
+	background-color: #FAE196;
+}
+
+.kse-list-item address,
+.kse-list-item h1,
+.kse-list-item h2,
+.kse-list-item h3,
+.kse-list-item h4,
+.kse-list-item h5,
+.kse-list-item h6,
+.kse-list-item p,
+.kse-list-item pre {
+	margin: 3px 0;
+}
