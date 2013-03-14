@@ -1,0 +1,110 @@
+.kse-image-upload {
+	width: 580px;
+}
+
+.kse-image-upload-container {
+	border: 3px dashed #E3E3E3;
+	border-radius: 2px;
+	-moz-border-radius: 4px;
+	height: 320px;
+}
+
+.kse-image-upload-dropzone {
+	padding: 80px 0 0 150px;
+	line-height: 28px;
+}
+
+.kse-image-upload-dropzone dt {
+	float: left;
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+.kse-image-upload-dropzone dl {
+	clear: both;
+	overflow: hidden;
+}
+
+.kse-image-upload-dropzone input {
+	margin: 10px 0;
+	padding: 8px 12px;
+}
+
+.kse-image-upload-progress {
+	width: 88%;
+	height: 245px;
+	line-height: 288px;
+	text-align: center;
+}
+
+.kse-image-url-view label {
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	padding: 0 10px;
+	text-align: right;
+}
+
+.kse-image-url-view select {
+	vertical-align: middle;
+	height: 26px;
+	padding: 4px 3px;
+}
+
+.kse-image-preview-area {
+	width: 580px;
+	height: 240px;
+}
+
+.kse-image-preview-area table {
+	width: 100%;
+	height: 100%;
+}
+
+.kse-image-preview-area table td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.kse-image-preview-area .kse-explain {
+	padding: 0;
+}
+
+.kse-image-upload-panel {
+	position: relative;
+	overflow: hidden;
+	width: 570px;
+	height: 290px;
+}
+
+.kse-image-upload-panel li {
+	border: 1px dashed #E3E3E3;
+	float: left;
+	width: 120px;
+	height: 120px;
+	line-height: 118px;
+	margin: 0 8px 20px;
+	padding: 2px;
+	overflow: hidden;
+	text-align: center;
+	list-style-type: decimal;
+	color: #FFF;
+}
+
+.kse-image-upload-panel li.kse-progress {
+	background-position: center 44%;
+	list-style-type: none;
+	line-height: 142px;
+}
+
+.kse-image-upload-panel li.kse-stress {
+	list-style-type: none;
+}
+
+.kse-image-upload-panel li.kse-over {
+	border-style: solid;
+}
+
+.kse-image-upload-panel li img {
+	vertical-align: middle;
+}
