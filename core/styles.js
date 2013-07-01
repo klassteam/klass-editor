@@ -1280,30 +1280,7 @@
 				style: style,
 				fn: callback
 			});
-		}/*,
-
-		getStylesSet: function(callback){
-			if (!this.storage.stylesDefinitions){
-				var editor = this,  // Respect the backwards compatible definition entry
-				configStyleSet = editor.config.stylesCombo_stylesSet || editor.config.stylesSet || 'default';
-				
-				// #5352 Allow to define the styles directly in the config object
-				if (configStyleSet instanceof Array){
-					editor._.stylesDefinitions = configStyleSet;
-					callback(configStyleSet);
-					return;
-				}
-				
-				var partsStylesSet = configStyleSet.split(':'), styleSetName = partsStylesSet[0], externalPath = partsStylesSet[1], pluginPath = CKEDITOR.plugins.registered.styles.path;
-				
-				CKEDITOR.stylesSet.addExternal(styleSetName, externalPath ? partsStylesSet.slice(1).join(':') : pluginPath + 'styles/' + styleSetName + '.js', '');
-				
-				CKEDITOR.stylesSet.load(styleSetName, function(stylesSet){
-					editor._.stylesDefinitions = stylesSet[styleSetName];
-					callback(editor._.stylesDefinitions);
-				});
-			} else callback(this.storage.stylesDefinitions);
-		}*/
+		}
 
 	});
 

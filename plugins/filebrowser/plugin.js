@@ -63,7 +63,7 @@ Klass.run(function(local){
 /**
  * The location of an external file browser that should be launched when the <strong>Browse Server</strong>
  * button is pressed in the <strong>Image</strong> dialog window.
- * If not set, CKEditor will use <code>{@link Klass.Editor.config.filebrowser.fileBrowseUrl}</code>.
+ * If not set, Klass Editor will use <code>{@link Klass.Editor.config.filebrowser.fileBrowseUrl}</code>.
  * @name Klass.Editor..config.filebrowser.imageBrowseUrl
  * @since 3.0
  * @type String

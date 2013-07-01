@@ -47,7 +47,7 @@ Klass.Editor.plugins.implement('image', function(editor){
 			if (!element || !element.is('img') || element.data('cke-realelement') || element.isReadOnly()) return null;
 			
 			return {
-				image: CKEDITOR.TRISTATE_OFF
+				image: Klass.Editor.TRISTATE_OFF
 			};
 		});
 	}*/

@@ -354,8 +354,6 @@
 		}
 
 		['cut', 'copy', 'paste'].forEach(addButtonCommand);
-		
-		//CKEDITOR.dialog.add('paste', $K.getUrl(this.path + 'dialogs/paste.js'));
 
 		
 		// If the "contextmenu" plugin is loaded, register the listeners.

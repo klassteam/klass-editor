@@ -36,8 +36,6 @@
 			label: editor.lang.pasteText
 		});
 		
-		//CKEDITOR.dialog.add(commandName, $E.getUrl(this.path + 'dialogs/pastetext.js'));
-		
 		if (editor.config.forcePasteAsPlainText){
 			// Intercept the default pasting process.
 			editor.addEvent('beforeCommandExec', function(evt){
@@ -65,7 +63,7 @@
  * editor, loosing any formatting information possibly available in the source
  * text.
  * <strong>Note:</strong> paste from word is not affected by this configuration.
- * @name CKEDITOR.config.forcePasteAsPlainText
+ * @name Klass.Editor.config.forcePasteAsPlainText
  * @type Boolean
  * @default false
  * @example
